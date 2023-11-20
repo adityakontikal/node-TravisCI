@@ -12,7 +12,7 @@ cache: npm
 # Configure the build cycles to tell Travis CI to install all dependencies.
 # You can also add other dependencies you like Travis to install globally.
 install: # Hook provided by Travis CI
-- npm install node-TravisCI --user 0 --unsafe-perm true
+- npm install
 
 # Tell Travis CI to run the test for your Node application
 script:
