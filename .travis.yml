@@ -25,5 +25,5 @@ deploy:
   provider: heroku # Tell Travis CI to deploy your application to Heroku.
   skip-cleanup: true
   api_key: $HEROKU_TOKEN # The environment variable you'll create later for a token.
-  app: node-travis-app # Tells deployment should be made for the app node-travis-app.
+  app: node-travis-appp # Tells deployment should be made for the app node-travis-app.
   
